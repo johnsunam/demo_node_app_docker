@@ -1,0 +1,15 @@
+{
+  "name": "node_app_docker",
+  "version": "1.0.0",
+  "description": "demo node app for docekrization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "nodejs"
+  ],
+  "author": "John Sunam",
+  "license": "ISC"
+}
