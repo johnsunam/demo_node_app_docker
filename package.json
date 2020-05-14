@@ -2,14 +2,18 @@
   "name": "node_app_docker",
   "version": "1.0.0",
   "description": "demo node app for docekrization",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "docker",
-    "nodejs"
+    "nodejs",
+    "express"
   ],
   "author": "John Sunam",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
