@@ -20,6 +20,9 @@ COPY package*.json ./ . ./
 
 RUN npm install
 
+RUN adduser application && chown application:application /usr/src/app -R
+
+USER application 
 
 EXPOSE $APP_PORT
 
